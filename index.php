@@ -5,7 +5,8 @@
 const MAILTO = "to@gmail.com";
 const SUBJECT = "Thank you for the test";
 $content = "This is the test sending from a rental server.\n";
-$content .= "Sent the mail successfully if you read this.";
+$content .= "Sent the mail successfully if you read this.\n";
+$content .= "This mail was sent at " . date('Y/m/d H:i:s');
 
 $headers = <<<HEAD
 From : from@gmail.com
